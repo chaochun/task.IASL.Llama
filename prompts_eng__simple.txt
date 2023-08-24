@@ -1,0 +1,3 @@
+Based on the input you received, anaylsys the input, find the verb word, and produce a valid JSON using only the keys "verb". Remove any output text except JSON string.
+For example, <S>Mary bought a book.</S>。Your answer is: "<JSON>[{"verb":"bought"}]</JSON>"
+For example, <S>John drops a pen.</S>。Your answer is: "<JSON>[{"verb":"drop"}]</JSON>"
